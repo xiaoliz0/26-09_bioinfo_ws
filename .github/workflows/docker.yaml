@@ -3,7 +3,8 @@ on: [push]
 
 jobs:
   lint:
-    ...
+    name: Lint Dockerfile
+    runs-on: ubuntu-latest
   build:
     name: Build Image
     runs-on: ubuntu-latest
